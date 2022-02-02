@@ -20,6 +20,8 @@ a:hover {
   cursor: pointer;
 }
 
+
+
 .description {
   font-size: 16px;
   text-align: center;
@@ -45,7 +47,7 @@ a:hover {
 }
 
 .title-footer {
-  font-size: 22px;
+  font-size: 18px;
   margin: 0 auto 16px auto;
 }
 
@@ -444,6 +446,10 @@ a:hover {
   color: #f3976c !important;
 }
 
+.navbar-enditems > a:focus {
+  border: solid #f3976c
+}
+
 a[href^="mailto"]:hover {
   color: #f3976c !important;
 }
@@ -632,7 +638,7 @@ a[data-lightbox] {
   text-align: center;
 }
 
-a[data-lightbox]:hover::before {
+a[data-lightbox]:hover::before , a[data-lightbox]:focus::before{
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
@@ -651,7 +657,7 @@ a[data-lightbox]:hover::before {
   -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover img , a[data-lightbox]:focus img{
   opacity: 0.6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
@@ -864,6 +870,10 @@ h4 {
   text-decoration: underline !important;
 }
 
+.bold-link:hover , .bold-link:focus {
+  color : #cecece !important
+}
+
 .bgc-white {
   background-color: #ffffff;
 }
@@ -885,7 +895,7 @@ h4 {
   color: #ffffff !important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover , .btn-atomic-tangerine:focus {
   background: #c27956 !important;
   color: #ffffff !important;
 }
