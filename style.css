@@ -48,6 +48,7 @@ a:hover {
 
 .title-footer {
   font-size: 18px;
+  font-weight: 600;
   margin: 0 auto 16px auto;
 }
 
@@ -463,6 +464,11 @@ blockquote {
   font-size: 18px;
 }
 
+.blockquote-footer {
+  color:#545454;
+  font-weight: 500;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -754,7 +760,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #3c3c3c !important;
 }
 
 .container {
