@@ -20,7 +20,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 .description {
   font-size: 16px;
   text-align: center;
@@ -64,8 +63,8 @@ a:hover {
   font-size: 16px;
 }
 
-.partners-list  li a:hover {
-  color : white !important;
+.partners-list li a:hover {
+  color: white !important;
 }
 
 .title-partners {
@@ -447,7 +446,7 @@ a:hover {
 }
 
 .navbar-enditems > a:focus {
-  border: solid #f3976c
+  border: solid #f3976c;
 }
 
 a[href^="mailto"]:hover {
@@ -464,7 +463,7 @@ blockquote {
 }
 
 .blockquote-footer {
-  color:#545454;
+  color: #545454;
   font-weight: 500;
 }
 
@@ -648,7 +647,8 @@ a[data-lightbox] {
   text-align: center;
 }
 
-a[data-lightbox]:hover::before , a[data-lightbox]:focus::before{
+a[data-lightbox]:hover::before,
+a[data-lightbox]:focus::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
@@ -667,7 +667,8 @@ a[data-lightbox]:hover::before , a[data-lightbox]:focus::before{
   -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img , a[data-lightbox]:focus img{
+a[data-lightbox]:hover img,
+a[data-lightbox]:focus img {
   opacity: 0.6;
   -webkit-animation-fill-mode: none;
   animation-fill-mode: none;
@@ -771,13 +772,13 @@ a {
   max-width: 1000px;
 }
 
-.hero-bloc-text h1{
+.hero-bloc-text h1 {
   font-size: 38px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.hero-bloc-text p{
+.hero-bloc-text p {
   font-size: 18px;
   width: 100%;
 }
@@ -821,7 +822,12 @@ a {
 }
 
 .social span {
- color : #333333 !important
+  display: block;
+  color: #333333 !important;
+}
+
+.social span:hover {
+  color: #565656 !important;
 }
 
 h2 {
@@ -886,8 +892,9 @@ h4 {
   text-decoration: underline !important;
 }
 
-.bold-link:hover , .bold-link:focus {
-  color : #cecece !important
+.bold-link:hover,
+.bold-link:focus {
+  color: #cecece !important;
 }
 
 .bgc-white {
@@ -911,7 +918,8 @@ h4 {
   color: #313131 !important;
 }
 
-.btn-atomic-tangerine:hover , .btn-atomic-tangerine:focus {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
   background: #c27956 !important;
   color: #ffffff !important;
 }
